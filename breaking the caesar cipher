@@ -11,13 +11,12 @@ public class CaesarCipher {
 		
 	    System.out.println("Enter the encrypted text :"); 
 	String cryptedtext = input.nextLine(); 		          
-		cryptedtext = cryptedtext.toLowerCase();    		 	
+	    cryptedtext = cryptedtext.toLowerCase();    		 	
 	String[] array = new String[cryptedtext.length()];        
 		for (int i = 97; i < 123; i++)  		
 		{ 			
 			int mostFrequent = 0;  		
-			for (int j = 0; j < cryptedtext.length(); j++) 
-			{ 			
+			for (int j = 0; j < cryptedtext.length(); j++){ 			
 				if (cryptedtext.charAt(j) == i){ 	
 					++mostFrequent; 				
 				}  		
