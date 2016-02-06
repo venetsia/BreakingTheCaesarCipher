@@ -18,7 +18,7 @@ public class CaesarCipher {
 			int mostFrequent = 0;  		
 			for (int j = 0; j < cryptedtext.length(); j++){ 			
 				if (cryptedtext.charAt(j) == i){ 	
-					++mostFrequent; 				
+				++mostFrequent; 				
 				}  		
 			}  			
 			System.out.println((char) i + " is showing " + mostFrequent + " times ");  			 			 			 			 			 	
